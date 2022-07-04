@@ -1,0 +1,7 @@
+{
+  "tokenFilePath": "figma/token.json",
+  "projectPath": "Tokenisation/Tokenisation",
+  "mapper": {
+      "oldValue": "newValue"
+  }
+}

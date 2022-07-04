@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4486D892287271E000C7066B /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486D891287271E000C7066B /* Typography.swift */; };
+		4486D8942872720E00C7066B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4486D8932872720E00C7066B /* Colors.xcassets */; };
+		4486D8982872721700C7066B /* Typography+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486D8962872721700C7066B /* Typography+Constant.swift */; };
+		4486D8992872721700C7066B /* UIColor+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486D8972872721700C7066B /* UIColor+Constant.swift */; };
 		44CFB92428715A120014B824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CFB92328715A120014B824 /* AppDelegate.swift */; };
 		44CFB92628715A120014B824 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CFB92528715A120014B824 /* SceneDelegate.swift */; };
 		44CFB92828715A120014B824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CFB92728715A120014B824 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4486D891287271E000C7066B /* Typography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		4486D8932872720E00C7066B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4486D8962872721700C7066B /* Typography+Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Typography+Constant.swift"; sourceTree = "<group>"; };
+		4486D8972872721700C7066B /* UIColor+Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Constant.swift"; sourceTree = "<group>"; };
 		44CFB92028715A120014B824 /* Tokenisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokenisation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFB92328715A120014B824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44CFB92528715A120014B824 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4486D8952872721700C7066B /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				4486D8962872721700C7066B /* Typography+Constant.swift */,
+				4486D8972872721700C7066B /* UIColor+Constant.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
 		44CFB91728715A120014B824 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +76,10 @@
 				44CFB92328715A120014B824 /* AppDelegate.swift */,
 				44CFB92528715A120014B824 /* SceneDelegate.swift */,
 				44CFB92728715A120014B824 /* ViewController.swift */,
+				4486D891287271E000C7066B /* Typography.swift */,
+				4486D8952872721700C7066B /* utility */,
 				44CFB92928715A120014B824 /* Main.storyboard */,
+				4486D8932872720E00C7066B /* Colors.xcassets */,
 				44CFB92C28715A140014B824 /* Assets.xcassets */,
 				44CFB92E28715A140014B824 /* LaunchScreen.storyboard */,
 				44CFB93128715A140014B824 /* Info.plist */,
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CFB93028715A140014B824 /* LaunchScreen.storyboard in Resources */,
+				4486D8942872720E00C7066B /* Colors.xcassets in Resources */,
 				44CFB92D28715A140014B824 /* Assets.xcassets in Resources */,
 				44CFB92B28715A120014B824 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4486D8982872721700C7066B /* Typography+Constant.swift in Sources */,
+				4486D8992872721700C7066B /* UIColor+Constant.swift in Sources */,
 				44CFB92828715A120014B824 /* ViewController.swift in Sources */,
 				44CFB92428715A120014B824 /* AppDelegate.swift in Sources */,
+				4486D892287271E000C7066B /* Typography.swift in Sources */,
 				44CFB92628715A120014B824 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
